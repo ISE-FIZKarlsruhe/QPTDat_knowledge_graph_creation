@@ -1,0 +1,14 @@
+{
+    "baseurl": "null",
+    "basepattern": "null",
+    "fixed": {
+        "title": "//*[@id=\"main-content\"]/section/div/div/div/div[1]/div/div/div[1]/div/h1",
+        "abstract": "//*[@id=\"main-content\"]/section/div/div/div/div[2]/div[2]/div/div[1]/div/div/div/div/p[1]",
+        "topic": "//*[@id=\"main-content\"]/section/div/div/div/div[1]/div/div/div[2]/div/div/div",
+        "applications": "//*[@id=\"main-content\"]/section/div/div/div/div[2]/div[1]/div/div[3]/div/div/div",
+        "group": "//*[@id=\"main-content\"]/section/div/div/div/div[2]/div[3]/div/div[1]/div/div/div/div",
+        "contact": "//*[@id=\"main-content\"]/section/div/div/div/div[2]/div[3]/div/div[2]/div/div/div/div",
+        "properties": "//*[@id=\"main-content\"]/section/div/div/div/div[2]/div[1]/div/div[4]/div/div/div"
+    },
+    "dynamic": []
+}

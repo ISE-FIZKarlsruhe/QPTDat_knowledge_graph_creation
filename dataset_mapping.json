@@ -1,0 +1,16 @@
+{
+    "baseurl": "https://www.inptdat.de/search/type/dataset",
+    "basepattern": "",
+    "fixed": {
+        "title": "//*[@id=\"main-content\"]/section/div/div/div/div/div[2]/div/div/h2",
+        "abstract": "//*[@id=\"main-content\"]/section/div/div/div/div/div[2]/div/div/div/article/div/div[2]/div/div/p",
+        "topic": "//*[@id=\"main-content\"]/section/div/div/div/div/div[2]/div/div/div/article/div/div[1]/div",
+        "tags": "//*[@id=\"main-content\"]/section/div/div/div/div/div[2]/div/div/div/article/div/div[3]/div"
+    },
+    "dynamic": [
+        { "query": "//*[@id=\"main-content\"]/section/div/div/div/div/div[2]/div/div/div/article/div/div[4]/div/table/tbody/tr",
+          "key": "th",
+          "value": "td"
+        }
+    ]
+}
