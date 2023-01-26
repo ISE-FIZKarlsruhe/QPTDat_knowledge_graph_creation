@@ -1,0 +1,7 @@
+# Python 3.10
+jupyter==1.0
+rdflib==6.2.0
+owlrl==6.0.2
+pandas==1.5.2
+numpy==1.24.1
+pyshacl==0.20.0
